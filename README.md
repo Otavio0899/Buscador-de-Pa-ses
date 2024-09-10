@@ -33,6 +33,7 @@ informations.js
 Este arquivo contém os dados dos países, que são armazenados em um array de objetos JavaScript. Cada objeto representa um país com suas respectivas informações (nome, localização, população, descrição e um link para mais detalhes).
 
 Exemplo de um país no array:
+
 ```
 let paises = [
     {
@@ -54,6 +55,7 @@ Captura do termo de pesquisa: O valor digitado pelo usuário é capturado e conv
 Filtro dos resultados: A função percorre o array de países e verifica se o termo digitado está presente no nome do país, na sua descrição ou na sua localização.
 
 Exibição dos resultados: Caso haja correspondência, os dados do país são exibidos na seção de resultados. Se não houver, uma mensagem informando que nada foi encontrado é exibida.
+
 ```
 function pesquisar(){
     let campoPesquisa = document.getElementById("campo-pesquisa").value.trim().toLowerCase();
