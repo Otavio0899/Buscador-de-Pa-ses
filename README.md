@@ -29,7 +29,7 @@ Este arquivo define a estrutura do site, incluindo o campo de pesquisa e a área
 <section id="resultados-pesquisa"></section>
 ```
 
-informations.js 
+### 2. informations.js 
 Este arquivo contém os dados dos países, que são armazenados em um array de objetos JavaScript. Cada objeto representa um país com suas respectivas informações (nome, localização, população, descrição e um link para mais detalhes).
 
 Exemplo de um país no array:
@@ -47,7 +47,7 @@ let paises = [
 ];
 ```
 
-script.js
+### 3. script.js
 Este arquivo contém a função pesquisar(), que é responsável por filtrar os países com base no termo inserido no campo de pesquisa.
 
 Captura do termo de pesquisa: O valor digitado pelo usuário é capturado e convertido para letras minúsculas para facilitar a comparação.
@@ -77,12 +77,12 @@ function pesquisar(){
 }
 ```
 
-Tecnologias Utilizadas
+### Tecnologias Utilizadas
 HTML5: Para a estrutura da página.
 CSS3: Para o design básico.
 JavaScript: Para a lógica da pesquisa e exibição dos resultados.
 GitHub e Vercel: versionamento do código.
 
-Agradecimentos
+### Agradecimentos
 Obrigado por usar este site! Sinta-se à vontade para sugerir melhorias ou relatar problemas.
 
